@@ -26,10 +26,10 @@ function nouv(randomValue){
 
 
 function jsp(){
+    total ++;
     console.log(randomValue)
     if (nombre < randomValue) {
-        nombre ++;
-        total ++;
+        nombre ++
         document.getElementById("total").innerText = "Vous avez cliqué "+ total + " fois";
     }
     else {
