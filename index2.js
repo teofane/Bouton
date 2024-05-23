@@ -37,7 +37,7 @@ function jsp(){
         console.log(score, randomValue)
         if (score > mscore){
             mscore = score;
-            document.getElementById("mscore").innerText = "Votre meilleur score est " + mscore + " , Vous aviez " + (proba(mscore).toFixed(4))*100 + " % de chances de l'obtenir";
+            document.getElementById("mscore").innerText = "Votre meilleur score est " + mscore + " , Vous aviez " + (proba(mscore).toFixed(3))*100 + " % de chances de l'obtenir";
         }
         nombre = 0;
         reset++ ;
