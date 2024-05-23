@@ -1,6 +1,5 @@
 body{
     background-color: #ffe6cd ;
-    font-family:  cursive;
     font-size: 25px;
 }
 button {
@@ -11,7 +10,11 @@ button {
     font-size: 48px;
     border-radius: 45%;
     transition:0.4s;
+    font-family:  cursive;
 }
 button:hover{
     background-color: #f85d5d;
+}
+p {
+    font-family:  cursive;
 }
